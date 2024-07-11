@@ -52,7 +52,7 @@ function makePlay(position) {
         let winningIndex = checkWin(play)
         
         if (winningIndex >= 0) { 
-            alert((play !== 0 ? '"Bolinha"': '"Xis"') + " Venceu a partida")
+            alert((play === '0' ? '"Bolinha"': '"Xis"') + " Venceu a partida")
             gameOver = true
         } else if (!board.includes('')) {
             gameOver = true
