@@ -77,3 +77,4 @@ function start() {
 }
 
 start();
+// inicia o jogo
